@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+	<div class="text-center" ng-app="moviesApp" ng-controller="MoviesCtrl">
+		<h1>Web API-Angular Movie List</h1>
+		<div class="col-md-12 control-group">
+			<input type="text" style="width: 200px;" ng-model="newMovieText" />
+			<button id="btnAddTodo" class="btn" style="margin: 2px;" ng-click="addMovie()" ng-disabled="!newMovieText">Add Movie</button>
+		</div>
+
+		<div class="col-md-5 sticky-note">
+			<h3 class="text-center">Released Movies</h3>
+			<div class="col-md-5 rowmargin todoItem" ng-repeat="movie in movies | filter:{isReleased:true}">
+				<div class="thumbnail">
+					<input type="checkbox" ng-model="movie.watched" ng-change="movieWatched(movie)" />
+					&nbsp;
+					<span ng-class="{watchedMovie: movie.watched}">{{movie.name}}</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-5 sticky-note">
+			<h3 class="text-center">Coming Up...</h3>
+			<div class="col-md-5 rowmargin todoItem" ng-repeat="movie in movies | filter:{isReleased:false}">
+				<div class="thumbnail">
+					{{movie.name}}
+					<br />
+					<br />
+					<input type="button" value="Released!" class="btn btn-link released-button" ng-click="movieReleased(movie)" style="" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+@section scripts{
+	<script src="~/dist/moviesCombined.js"></script>
+}

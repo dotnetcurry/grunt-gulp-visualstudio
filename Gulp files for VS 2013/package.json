@@ -1,0 +1,34 @@
+﻿{
+    "name": "Movie-list",
+    "preferGlobal": true,
+    "version": "0.1.0",
+    "author": "Ravi Kiran",
+    "description": "A sample movie list application",
+    "bin": {
+        "package-name": "./bin/package-name"
+    },
+    "dependencies": {
+    },
+    "analyze": false,
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-bowercopy": "^1.2.0",
+        "karma": "^0.12.31",
+        "karma-jasmine": "^0.3.5",
+        "grunt-karma": "^0.10.1",
+        "grunt-contrib-copy": "^0.7.0",
+        "grunt-contrib-concat": "^0.5.0",
+        "grunt-contrib-clean": "^0.6.0",
+        "grunt-contrib-uglify": "^0.7.0",
+        "gulp": "^3.8.10",
+        "gulp-bower": "^0.0.10",
+        "del": "^1.1.1",
+        "gulp-concat": "^2.4.3",
+        "gulp-karma": "^0.0.4",
+        "vinyl-paths": "^1.0.0"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.6"
+    }
+}

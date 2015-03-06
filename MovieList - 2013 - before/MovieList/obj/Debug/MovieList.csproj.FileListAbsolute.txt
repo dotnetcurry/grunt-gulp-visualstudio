@@ -1,0 +1,36 @@
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\MovieList.dll.config
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\MovieList.dll
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\MovieList.pdb
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\EntityFramework.dll
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\EntityFramework.SqlServer.dll
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\Newtonsoft.Json.dll
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\System.Net.Http.Formatting.dll
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\System.Web.Http.dll
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\System.Web.Http.WebHost.dll
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\EntityFramework.xml
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\EntityFramework.SqlServer.xml
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\Newtonsoft.Json.xml
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\System.Net.Http.Formatting.xml
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\System.Web.Http.xml
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\bin\System.Web.Http.WebHost.xml
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\obj\Debug\MovieList.csprojResolveAssemblyReference.cache
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\obj\Debug\MovieList.dll
+D:\Learning\Publications\Articles\DNC\Front-end Web Development using VS2013, VS2015\MovieList\MovieList\obj\Debug\MovieList.pdb
+D:\Learning\VS\MovieList\MovieList\bin\MovieList.dll.config
+D:\Learning\VS\MovieList\MovieList\bin\MovieList.dll
+D:\Learning\VS\MovieList\MovieList\bin\MovieList.pdb
+D:\Learning\VS\MovieList\MovieList\bin\EntityFramework.dll
+D:\Learning\VS\MovieList\MovieList\bin\EntityFramework.SqlServer.dll
+D:\Learning\VS\MovieList\MovieList\bin\Newtonsoft.Json.dll
+D:\Learning\VS\MovieList\MovieList\bin\System.Net.Http.Formatting.dll
+D:\Learning\VS\MovieList\MovieList\bin\System.Web.Http.dll
+D:\Learning\VS\MovieList\MovieList\bin\System.Web.Http.WebHost.dll
+D:\Learning\VS\MovieList\MovieList\bin\EntityFramework.xml
+D:\Learning\VS\MovieList\MovieList\bin\EntityFramework.SqlServer.xml
+D:\Learning\VS\MovieList\MovieList\bin\Newtonsoft.Json.xml
+D:\Learning\VS\MovieList\MovieList\bin\System.Net.Http.Formatting.xml
+D:\Learning\VS\MovieList\MovieList\bin\System.Web.Http.xml
+D:\Learning\VS\MovieList\MovieList\bin\System.Web.Http.WebHost.xml
+D:\Learning\VS\MovieList\MovieList\obj\Debug\MovieList.dll
+D:\Learning\VS\MovieList\MovieList\obj\Debug\MovieList.pdb
+D:\Learning\VS\MovieList\MovieList\obj\Debug\MovieList.csprojResolveAssemblyReference.cache

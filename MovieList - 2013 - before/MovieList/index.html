@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sample Movie List</title>
+    
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="styles/site.css" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="text-center" ng-app="moviesApp" ng-controller="MoviesCtrl">
+            <h1>WebA API-Angular Movie List</h1>
+            <div class="col-md-12 control-group">
+                <input type="text" style="width: 200px;" ng-model="newMovieText" />
+                <button id="btnAddTodo" class="btn" style="margin: 2px;" ng-click="addMovie()" ng-disabled="!newMovieText">Add Movie</button>
+            </div>
+
+            <div class="col-md-5 sticky-note">
+                <h3 class="text-center">Released Movies</h3>
+                <div class="col-md-5 rowmargin todoItem" ng-repeat="movie in movies | filter:{isReleased:true}">
+                    <div class="thumbnail">
+                        <input type="checkbox" ng-model="movie.watched" ng-change="movieWatched(movie)" />
+                        &nbsp;
+                        <span ng-class="{watchedMovie: movie.watched}">{{movie.name}}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 sticky-note">
+                <h3 class="text-center">Coming Up...</h3>
+                <div class="col-md-5 rowmargin todoItem" ng-repeat="movie in movies | filter:{isReleased:false}">
+                    <div class="thumbnail">
+                        {{movie.name}}
+                        <br />
+                        <br />
+                        <input type="button" value="Released!" class="btn btn-link released-button" ng-click="movieReleased(movie)" style="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="public/libs/angular/angular.js"></script>
+    <script src="public/dist/moviesCombined.js"></script>
+</body>
+</html>

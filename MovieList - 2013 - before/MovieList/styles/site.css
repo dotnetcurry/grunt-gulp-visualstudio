@@ -1,0 +1,51 @@
+﻿body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+.rowMargin {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.right {
+  clear: right;
+  float: right;
+}
+.thumbnail {
+  box-shadow: 1px 1px 1px 1px #dbdbdb;
+  padding-bottom: 20px;
+  height: 70px;
+}
+.thumbnail:hover {
+  box-shadow: 2px 2px 2px 2px #7f7f7f;
+}
+.thumbnail .caption {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Comic Sans MS';
+}
+.todoItem {
+  margin: 4px;
+}
+.sticky-note {
+  overflow: hidden;
+  text-decoration: none;
+  color: #000;
+  background: #afb;
+  display: block;
+  float: left;
+  margin: 10px;
+  border-color: #000;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+.released-button.btn {
+  border: 0px;
+  padding: 2px;
+}
+.watchedMovie {
+  text-decoration: line-through;
+  font-style: italic;
+}

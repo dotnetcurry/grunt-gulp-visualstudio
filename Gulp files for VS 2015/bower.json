@@ -1,0 +1,8 @@
+{
+    "name": "MovieList_Gulp",
+    "private": true,
+    "devDependencies": {
+		"angular": "~1.3.11",
+		"bootstrap": "3.3.2"
+    }
+}

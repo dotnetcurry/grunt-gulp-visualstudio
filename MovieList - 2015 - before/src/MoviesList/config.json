@@ -1,0 +1,12 @@
+﻿{
+    "Data": {
+        "DefaultConnection": {
+            "ConnectionString": "Server=.;Database=MoviesDb;Integrated Security=True;"
+        }
+    },
+    "EntityFramework": {
+        "MoviesDbContext": {
+            "ConnectionStringKey": "Data:DefaultConnection:ConnectionString"
+        }
+    }
+}
